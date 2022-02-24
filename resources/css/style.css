@@ -17,7 +17,7 @@ body {
   font-weight: normal;
   text-align: center;
   background-color: pink;
-  background-image: url(resources/images/pinkyellowpurple.png);
+  background-image: url("../images/pinkyellowpurple.png");
 
   background-position: 50% 20%;
   color: 132227;

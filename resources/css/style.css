@@ -113,4 +113,13 @@ td {
   right: 10px;
   bottom: 0px;
   width: 20%;
+  animation-name: bark;
+  animation-duration: 4s;
 }
+
+@keyframes bark {
+  0%   {transform: rotate(20deg);}
+  25%  {transform: rotate(20deg);}
+  50%  {transform: rotate(20deg);}
+  75%  {transform: rotate(20deg);}
+  100% {transform: rotate(20deg);}

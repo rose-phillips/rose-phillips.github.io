@@ -73,7 +73,6 @@ p {
   margin: 0 auto;
 }
 
-
 table {
   border: 1px solid rgba(0, 0, 0, 0.3);
   min-width: 300px;
@@ -153,7 +152,6 @@ td {
   50% {height: 0;}
   75% {height: 60px;}
   100% {height: 60px;}
-
 }
 
 .shout-tinx {
@@ -172,7 +170,6 @@ td {
   50% {height: 0;}
   75% {height: 60px;}
   100% {height: 60px;}
-  
 }
 
 /* 'about' pages flexbox */
@@ -202,13 +199,11 @@ td {
     text-align: center;
     font-family: 'Kalam';
     color: slategrey;
-  
   }
 
   .board-content {
     display: flex;
     flex-direction: column;
-
   }
 
   .notes-container {
@@ -231,7 +226,6 @@ td {
     align-items: center;
   }
                                    
-
   .note-1 {
     background-color: paleturquoise;
   }

@@ -19,7 +19,10 @@ body {
   background-color: pink; /* For browsers that do not support gradients */
   background: radial-gradient(at 50% 200%, #ffffff, #ffffc6, #fed9c1,#ffa59c, #fb8b98, #d3659c, #9b4898);
   color: 132227;
-  height: 100%;
+}
+
+body, html {
+  min-height: 100%;
 }
 
 .header {}
@@ -53,7 +56,6 @@ nav a {
 
 main {
   padding: 20px 0px;
-  height: 100%;
 }
 
 h2 {

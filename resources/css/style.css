@@ -183,9 +183,10 @@ td {
 
   }
   .board {
-    background-color: rgba(255, 255, 255, 0.75);
-    border: 3px solid gray;
-    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border: 6px solid silver;
+    border-radius: 0.6em;
     margin: 2em;
     min-width: 300px;
     max-width: 700px;
@@ -198,7 +199,8 @@ td {
     width: 100%;
     text-align: center;
     font-family: 'Kalam';
-    color: slategrey;
+    color: darkslategrey;
+    line-height: 3em;
   }
 
   .board-content {
@@ -213,10 +215,10 @@ td {
   }
 
   .note-1, .note-2, .note-3, .note-4 {
-    height: 110px;
-    width: 110px;
+    height: 100px;
+    width: 100px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin: 1em;
+    margin: 0.8em;
     text-align: center;
     font-family: 'Kalam';
     font-size: 1.3rem;
